@@ -1,9 +1,11 @@
-
 # Project files management system
 
 Spring boot application with postgres DB to manage files on multible layers.
 
-
+A permission group "admin" and three user ids are created automatically for testing purposes with the following permission levels
+view@example.com VIEW
+edit@example.com EDIT
+all@example.com VIEW and EDIT
 ## Create space API
     POST localhost:8080/items/space
 	Request Headers:
